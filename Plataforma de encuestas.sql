@@ -8,8 +8,8 @@ DROP TABLE IF EXISTS usuario;
 
 CREATE TABLE usuario (
     id_usuario INT NOT NULL,
-    username VARCHAR(50) NOT NULL,
-    email VARCHAR(100) NOT NULL,
+    usuario VARCHAR(50) NOT NULL,
+    correo VARCHAR(100) NOT NULL,
     contraseña VARCHAR(255) NOT NULL,
     fecha_registro DATE NOT NULL,
     CONSTRAINT pk_usuario PRIMARY KEY (id_usuario)
